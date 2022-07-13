@@ -1,0 +1,84 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+main {
+  background-color: #ffffff;
+  max-width: 1500px;
+  width: 70%;
+  padding: 20px;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.header-dashboard {
+  background-color: #ffffff;
+  padding: 30px 60px;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.pesquisa {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.pesquisa:hover {
+  text-decoration: underline;
+}
+
+.titulo-main {
+  text-align: center;
+}
+
+.painel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 70px;
+  gap: 20px;
+}
+
+.painel-projetos h2,
+.meus-tutores h2 {
+  margin-bottom: 10px;
+}
+
+.painel-projetos p,
+.meus-tutores p {
+  background-color: #d9d9d9;
+  padding: 20px 40px;
+}
+
+.link-buscar-projetos,
+.link-buscar-tutores {
+  text-decoration: none;
+  color: #0D08F8;
+}
+
+.link-buscar-projetos:hover,
+.link-buscar-tutores:hover {
+  text-decoration: underline;
+}

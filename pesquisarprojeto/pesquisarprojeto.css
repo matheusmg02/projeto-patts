@@ -1,0 +1,82 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+main {
+  background-color: #ffffff;
+  max-width: 1500px;
+  width: 70%;
+  padding: 20px;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+input {
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  background-color: #d5d5d5;
+}
+
+label {
+  display: block;
+}
+
+.header-pesquisar {
+  background-color: #ffffff;
+  padding: 30px 60px;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.pesquisa {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.pesquisa:hover {
+  text-decoration: underline;
+}
+
+.titulo-main-pesquisar {
+  margin-bottom: 20px;
+}
+
+.barra-pesquisas {
+  display: grid;
+  gap: 10px;
+  max-width: 40%;
+  margin-bottom: 30px;
+  margin-left: 30%;
+}
+
+.cabecalho-projeto {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-around;
+  background-color: #d5d5d5;
+  margin-bottom: 20px;
+}
+
+.descricao-projeto {
+  background-color: #d5d5d5;
+  padding: 15px 30px;
+}
